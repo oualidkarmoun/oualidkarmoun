@@ -43,7 +43,7 @@ ENIAD — École Nationale d'Intelligence Artificielle et du Digital
 
 ## 📫 Let's Connect
 
-Portfolio: 
+Portfolio: https://byoualid.netlify.app
 LinkedIn: oualid karmoun
 GitHub: oualidkarmoun
 
