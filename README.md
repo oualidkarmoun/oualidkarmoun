@@ -11,14 +11,14 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Based_in-Oujda,_Morocco-38BDF8?style=for-the-badge&labelColor=08111F" alt="Based in Oujda, Morocco" />
   <br />
-  <strong>AI Engineering student building practical intelligent systems and production-ready software.</strong>
+  <strong>AI Engineering student focused on practical AI systems, strong software engineering and real-world products.</strong>
 </p>
 
 <br />
 
 <img src="assets/s01.svg" width="100%" alt="01 — About" />
 
-I'm an **Artificial Intelligence engineering student at ENIAD** focused on turning AI ideas into usable products. My work spans **computer vision, machine learning, LLM-powered applications, backend engineering and full-stack development**.
+I'm an **Artificial Intelligence engineering student at ENIAD** building practical systems at the intersection of **AI and software engineering**. I enjoy taking a problem from data and model experimentation to a usable product, with a particular interest in **computer vision, LLMs, RAG, AI agents and full-stack AI applications**.
 
 - **AI & computer vision.** I worked on mammography classification and segmentation during my internship at **CHU Mohammed VI, Oujda**, experimenting with CNN architectures, transfer learning and U-Net.
 - **Applied AI.** I build projects that connect models to real applications, including AI assistants, agricultural platforms and intelligent web systems.
