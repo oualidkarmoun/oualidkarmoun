@@ -31,6 +31,47 @@ I work in **Arabic, French and English**.
 
 <img src="assets/s02.svg" width="100%" alt="02 — Selected work" />
 
+<a href="https://github.com/ilyasdaoudrma/real-or-clone">
+  <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/2_result.png" width="100%" alt="Real or Clone? — AI voice-clone scam detector result screen" />
+</a>
+
+### Real or Clone? · detecting AI voice-cloning scams from voice notes
+
+**Real or Clone?** is the AI project I currently find the most meaningful: a mobile-first system built with my team **GOATAT** during the **GOMYCODE × NVIDIA — Come Build with AI** hackathon in Morocco. The goal is practical and immediate — help a user check a suspicious WhatsApp-style voice note before trusting an urgent request for money.
+
+The system uses a **fine-tuned XLS-R 300M audio model** to classify a recording as a real voice or an AI-generated clone. The app does more than return a label: it shows a confidence-oriented result, highlights suspicious seconds in the audio, keeps a private history, and gives safety guidance after the verdict.
+
+**What we built**
+- Upload or record a voice note directly from a mobile-first interface.
+- Compare the base XLS-R model with our fine-tuned model.
+- Detect suspicious regions in an audio sample instead of showing only a final class.
+- Dashboard with evaluation metrics, before/after experiments and confusion matrices.
+- Multilingual interface and safety guidance in **Arabic, French and English**.
+- Private history for previous checks.
+
+**Model evaluation shown in the project:** **96.1% accuracy** on the held-out test set, **2.4% EER** on unseen TTS generators, and **7.2% of real voices wrongly flagged** in the reported final evaluation. These numbers come from the project's held-out evaluation and should be read in that test context.
+
+`PyTorch` `XLS-R 300M` `Audio Deep Learning` `Fine-tuning` `NVIDIA` `FastAPI` `Web App`
+
+→ **[Code & results](https://github.com/ilyasdaoudrma/real-or-clone)**
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/4_dashboard.png" width="100%" alt="Real or Clone dashboard with evaluation metrics" />
+      <p><b>Evaluation dashboard</b><br/>Held-out metrics, EER comparisons and confusion matrices make the model behavior visible instead of hiding it behind a single score.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/6_mobile_ar.png" width="100%" alt="Real or Clone Arabic mobile interface" />
+      <p><b>Mobile + multilingual</b><br/>The interface is designed for phone use and supports Arabic, French and English safety guidance.</p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
 <a href="https://flambeau-shop.vercel.app/">
   <img src="https://raw.githubusercontent.com/oualidkarmoun/flambeau-shop/main/docs/flambeau-home.png" width="100%" alt="FLAMBEAU — e-commerce platform with AI shopping assistant" />
 </a>
@@ -64,15 +105,6 @@ A premium home-fragrance e-commerce platform with a **real backend, server-side 
     </td>
   </tr>
 </table>
-
-### Real or Clone? · AI voice-clone scam detection
-
-A hackathon project built with my team during **GOMYCODE × NVIDIA — Come Build with AI**. The system analyzes suspicious voice notes to help detect AI-generated voice-cloning scams.
-
-`AI Audio` `Deep Learning` `Web App` `Hackathon`
-
-→ **[Project repository](https://github.com/ilyasdaoudrma/real-or-clone)**
-
 <br />
 
 <details>
@@ -119,7 +151,12 @@ Built a construction-project management web application with HTML, CSS, JavaScri
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,c,js,react,django,flask,nodejs,postgres,mysql,mongodb,git&perline=12" alt="Core technologies" />
   <br />
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,docker,vercel,vscode&perline=6" alt="AI and engineering tools" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
 
 | | |
