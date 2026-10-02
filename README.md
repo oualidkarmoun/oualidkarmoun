@@ -1,182 +1,171 @@
 <a href="https://www.linkedin.com/in/oualid-karmoun/">
-  <img src="assets/header.svg" width="100%" alt="Oualid Karmoun — AI Engineering Student at ENIAD, building AI and full-stack systems" />
+  <img src="assets/header.svg" width="100%" alt="Oualid Karmoun — AI Engineering student at ENIAD" />
 </a>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/oualid-karmoun/"><img src="https://img.shields.io/badge/LinkedIn-Oualid_Karmoun-22D3EE?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=08111F" alt="LinkedIn" /></a>
-  <a href="mailto:oualidkarmoun@gmail.com"><img src="https://img.shields.io/badge/Email-oualidkarmoun%40gmail.com-22D3EE?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=08111F" alt="Email" /></a>
-  <a href="https://byoualid.netlify.app"><img src="https://img.shields.io/badge/Portfolio-byoualid.netlify.app-67E8F9?style=for-the-badge&logo=vercel&logoColor=67E8F9&labelColor=08111F" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/oualid-karmoun/"><img src="https://img.shields.io/badge/LinkedIn-Oualid_Karmoun-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://byoualid.netlify.app"><img src="https://img.shields.io/badge/Portfolio-byoualid.netlify.app-111827?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:oualidkarmoun@gmail.com"><img src="https://img.shields.io/badge/Email-oualidkarmoun%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Based_in-Oujda,_Morocco-38BDF8?style=for-the-badge&labelColor=08111F" alt="Based in Oujda, Morocco" />
-  <br />
-  <strong>AI Engineering student focused on practical AI systems, strong software engineering and real-world products.</strong>
-</p>
+## About me
 
-<br />
+I'm **Oualid Karmoun**, an **Artificial Intelligence engineering student at ENIAD** in Morocco.
 
-<img src="assets/s01.svg" width="100%" alt="01 — About" />
+I like building projects where AI is not only a model in a notebook, but part of a complete product. My main interests are **computer vision, deep learning, LLM applications, RAG, AI agents and full-stack development**.
 
-I'm an **Artificial Intelligence engineering student at ENIAD** building practical systems at the intersection of **AI and software engineering**. I enjoy taking a problem from data and model experimentation to a usable product, with a particular interest in **computer vision, LLMs, RAG, AI agents and full-stack AI applications**.
+My current goal is to grow into an **AI Engineer** able to design the complete pipeline: data, experimentation, model evaluation, backend integration, user experience and deployment.
 
-- **AI & computer vision.** I worked on mammography classification and segmentation during my internship at **CHU Mohammed VI, Oujda**, experimenting with CNN architectures, transfer learning and U-Net.
-- **Applied AI.** I build projects that connect models to real applications, including AI assistants, agricultural platforms and intelligent web systems.
-- **Full-stack engineering.** I work across React, Django, Flask, Node.js/Express, PostgreSQL, MongoDB and deployment platforms such as Vercel.
-- **Current direction.** Deepening my skills in **LLMs, RAG, AI agents, computer vision and production AI engineering**.
+**What I work with:** Python · PyTorch · TensorFlow · scikit-learn · React · Django · Flask · Node.js · PostgreSQL · Git · Vercel
 
-I work in **Arabic, French and English**.
+---
 
-<br />
-
-<img src="assets/s02.svg" width="100%" alt="02 — Selected work" />
+## Featured AI project — Real or Clone?
 
 <a href="https://github.com/ilyasdaoudrma/real-or-clone">
-  <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/2_result.png" width="100%" alt="Real or Clone? — AI voice-clone scam detector result screen" />
+  <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/1_home.png" width="100%" alt="Real or Clone? AI voice-clone detection platform" />
 </a>
 
-### Real or Clone? · detecting AI voice-cloning scams from voice notes
+### Detecting AI voice-cloning scams from voice notes
 
-**Real or Clone?** is the AI project I currently find the most meaningful: a mobile-first system built with my team **GOATAT** during the **GOMYCODE × NVIDIA — Come Build with AI** hackathon in Morocco. The goal is practical and immediate — help a user check a suspicious WhatsApp-style voice note before trusting an urgent request for money.
+**Real or Clone?** was built **as a team project with GOATAT** during the **GOMYCODE × NVIDIA “Come Build with AI” hackathon in Morocco**.
 
-The system uses a **fine-tuned XLS-R 300M audio model** to classify a recording as a real voice or an AI-generated clone. The app does more than return a label: it shows a confidence-oriented result, highlights suspicious seconds in the audio, keeps a private history, and gives safety guidance after the verdict.
+The idea came from a real problem: scammers can imitate someone's voice and send convincing voice notes asking relatives for money. We built a system that lets users upload or record a suspicious voice note and analyze whether it is more likely to be **real or AI-cloned**.
 
-**What we built**
-- Upload or record a voice note directly from a mobile-first interface.
-- Compare the base XLS-R model with our fine-tuned model.
-- Detect suspicious regions in an audio sample instead of showing only a final class.
-- Dashboard with evaluation metrics, before/after experiments and confusion matrices.
-- Multilingual interface and safety guidance in **Arabic, French and English**.
-- Private history for previous checks.
+Our solution is based on a **fine-tuned XLS-R 300M audio model** and combines the ML pipeline with a mobile-first web experience.
 
-**Model evaluation shown in the project:** **96.1% accuracy** on the held-out test set, **2.4% EER** on unseen TTS generators, and **7.2% of real voices wrongly flagged** in the reported final evaluation. These numbers come from the project's held-out evaluation and should be read in that test context.
+**Inside the project:** audio preprocessing and deep-learning inference · base-model vs fine-tuned-model comparison · suspicious audio-region visualization · model evaluation dashboard · private history · Arabic / French / English interface and safety guidance.
 
-`PyTorch` `XLS-R 300M` `Audio Deep Learning` `Fine-tuning` `NVIDIA` `FastAPI` `Web App`
+The reported held-out evaluation includes **96.1% accuracy**, **2.4% EER on unseen TTS generators**, and **7.2% real voices wrongly flagged** in the final evaluation configuration. These metrics belong to the project's specific evaluation setup and dataset.
 
-→ **[Code & results](https://github.com/ilyasdaoudrma/real-or-clone)**
+`PyTorch` `XLS-R 300M` `Deep Learning` `Audio AI` `Fine-tuning` `FastAPI` `NVIDIA`
 
-<br />
+**[Explore the code and evaluation →](https://github.com/ilyasdaoudrma/real-or-clone)**
+
+---
+
+## Other projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/4_dashboard.png" width="100%" alt="Real or Clone dashboard with evaluation metrics" />
-      <p><b>Evaluation dashboard</b><br/>Held-out metrics, EER comparisons and confusion matrices make the model behavior visible instead of hiding it behind a single score.</p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/ilyasdaoudrma/real-or-clone/main/docs/shots/6_mobile_ar.png" width="100%" alt="Real or Clone Arabic mobile interface" />
-      <p><b>Mobile + multilingual</b><br/>The interface is designed for phone use and supports Arabic, French and English safety guidance.</p>
-    </td>
-  </tr>
-</table>
+<tr>
+<td width="50%" valign="top">
 
-<br />
+### FLAMBEAU
 
 <a href="https://flambeau-shop.vercel.app/">
-  <img src="https://raw.githubusercontent.com/oualidkarmoun/flambeau-shop/main/docs/flambeau-home.png" width="100%" alt="FLAMBEAU — e-commerce platform with AI shopping assistant" />
+  <img src="https://raw.githubusercontent.com/oualidkarmoun/flambeau-shop/main/docs/flambeau-home.png" width="100%" alt="FLAMBEAU e-commerce application" />
 </a>
 
-### FLAMBEAU · AI-assisted e-commerce
+Premium e-commerce platform with an **AI shopping assistant**, server-side checkout validation, stock management and Google Sheets persistence.
 
-A premium home-fragrance e-commerce platform with a **real backend, server-side checkout validation, stock management, Google Sheets persistence and an AI shopping assistant powered through Hugging Face**.
+`Node.js` `JavaScript` `Hugging Face` `Google Apps Script` `Vercel`
 
-`JavaScript` `Node.js` `Vercel` `Google Apps Script` `Google Sheets` `Hugging Face` `LLM`
+**[Live](https://flambeau-shop.vercel.app/)** · **[Repository](https://github.com/oualidkarmoun/flambeau-shop)**
 
-→ **[Live](https://flambeau-shop.vercel.app/)** · **[Code](https://github.com/oualidkarmoun/flambeau-shop)**
+</td>
+<td width="50%" valign="top">
 
-<br />
+### Café Manager
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://cafe-manager-beta.vercel.app/">
-        <img src="https://raw.githubusercontent.com/oualidkarmoun/demo-cafe-manager/main/demo.png" width="100%" alt="Café Manager demo" />
-      </a>
-      <h3>Café Manager</h3>
-      <p>A real-time café management system for orders, stock, daily declarations, staff roles and reporting. The full application uses Django REST Framework, Channels and PostgreSQL, with a React frontend.</p>
-      <p><code>React</code> <code>Django</code> <code>DRF</code> <code>Channels</code> <code>PostgreSQL</code></p>
-      <p>→ <b><a href="https://cafe-manager-beta.vercel.app/">Demo</a></b> · <b><a href="https://github.com/oualidkarmoun/cafe-realtime-app">Full project</a></b></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>AGRISHAMA</h3>
-      <p>An agriculture-focused platform connecting students, companies and farmers. It supports academic/job opportunities, profile discovery and agricultural product listings.</p>
-      <p><code>React</code> <code>Django</code> <code>PostgreSQL</code> <code>Redis</code></p>
-      <p><b>Built end-to-end independently</b>, from frontend and backend to database design.</p>
-    </td>
-  </tr>
+<a href="https://cafe-manager-beta.vercel.app/">
+  <img src="https://raw.githubusercontent.com/oualidkarmoun/demo-cafe-manager/main/demo.png" width="100%" alt="Café Manager application" />
+</a>
+
+Management system for a real café workflow: orders, inventory, staff roles, daily declarations and business reporting.
+
+`React` `Django REST Framework` `Channels` `PostgreSQL`
+
+**[Demo](https://cafe-manager-beta.vercel.app/)** · **[Repository](https://github.com/oualidkarmoun/cafe-realtime-app)**
+
+</td>
+</tr>
 </table>
-<br />
+
+### AGRISHAMA
+
+Agricultural platform designed to connect **students, companies and farmers**. It combines job and internship opportunities, profile discovery and agricultural product listings.
+
+I am building the project independently across the frontend, backend and database layers.
+
+`React` `Django` `PostgreSQL` `Redis`
 
 <details>
-<summary><b>More projects & research</b></summary>
+<summary><b>More work</b></summary>
 <br />
 
-| Project | What I worked on | Stack |
+| Project | Focus | Technologies |
 |---|---|---|
-| **Mammography AI — CHU Oujda** | Classification and segmentation experiments for normal, benign and malignant mammograms; CNN/transfer-learning architectures and U-Net. | Python · TensorFlow · PyTorch · scikit-learn |
-| **Intelligent Web Crawler** | Final-year project for website structure analysis, links, redirects and errors through a Flask interface and interactive maps. | Python · Flask · Leaflet |
-| **Mobile POS & Billing App** | Offline-first Flutter POS with product CRUD, barcode/QR scanning, cart calculations and Bluetooth thermal receipt printing. | Flutter · Hive · Bluetooth |
-| **SolidarIA** | Hackathon prototype: an AI chatbot for Morocco's social and solidarity economy with Darija/French support and an interactive map. | Flask · LLM API · Web |
+| **Mammography AI — CHU Mohammed VI** | Classification and segmentation experiments for normal, benign and malignant mammograms | Python · TensorFlow · PyTorch · U-Net |
+| **Intelligent Web Crawler** | Website structure analysis, links, redirects and errors | Python · Flask · Leaflet |
+| **Mobile POS & Billing App** | Offline POS, barcode scanning and Bluetooth thermal printing | Flutter · Hive · Bluetooth |
+| **SolidarIA** | Darija/French AI assistant for Morocco's social and solidarity economy | Flask · LLM API · Web |
 
 </details>
 
-<br />
+---
 
-<img src="assets/divider.svg" width="100%" alt="" />
+## Experience & education
 
-<br />
-
-<img src="assets/s03.svg" width="100%" alt="03 — Experience and Education" />
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### Education
 
 **Engineering Cycle — Artificial Intelligence**  
-**ENIAD, Berkane** · 2025 — Present
+ENIAD, Berkane · **2025 — Present**
 
 **DUT — Business Intelligence & Machine Learning**  
-**EST Oujda** · 2023 — 2025 · Mention Bien
+EST Oujda · **2023 — 2025**  
+Mention **Bien**
+
+</td>
+<td width="50%" valign="top">
 
 ### Experience
 
-**AI / Computer Vision Intern — CHU Mohammed VI, Oujda**  
-Worked on mammography classification and segmentation, model experimentation and evaluation.
+**AI / Computer Vision Intern**  
+CHU Mohammed VI, Oujda  
+Mammography classification, segmentation and model evaluation.
 
-**Web Development Intern — El Hore Travaux, Oujda**  
-Built a construction-project management web application with HTML, CSS, JavaScript, PHP and MySQL.
+**Web Development Intern**  
+El Hore Travaux, Oujda  
+Construction-project management web application.
 
-<br />
+</td>
+</tr>
+</table>
 
-<img src="assets/s04.svg" width="100%" alt="04 — Toolbox" />
+---
+
+## Technical stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,js,react,django,flask,nodejs,postgres,mysql,mongodb,git&perline=12" alt="Core technologies" />
-  <br />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,java,c,js,react,django,flask,nodejs,postgres,mysql,mongodb,redis,docker,git,vercel,vscode&perline=10" alt="Oualid Karmoun technology stack" />
 </p>
 
-| | |
+| Area | Technologies |
 |---|---|
-| **AI & data** | Python · TensorFlow · PyTorch · scikit-learn · NumPy · pandas · Computer Vision · Deep Learning · LLMs · RAG |
+| **AI & Data** | Python · PyTorch · TensorFlow · scikit-learn · NumPy · pandas · Computer Vision · Deep Learning · LLMs · RAG |
 | **Backend** | Django · Django REST Framework · Flask · Node.js · Express · REST APIs · JWT |
 | **Frontend** | React · JavaScript · HTML · CSS · Tailwind · Bootstrap |
-| **Databases** | PostgreSQL · MySQL · MongoDB · SQLite · Oracle · Redis |
-| **Engineering** | Git · GitHub · Vercel · Docker · Postman · Jupyter · Colab · Power BI |
+| **Data** | PostgreSQL · MySQL · MongoDB · SQLite · Oracle · Redis |
+| **Tools** | Git · GitHub · Docker · Vercel · Jupyter · Colab · Power BI |
 
-<br />
+---
 
-<img src="assets/s05.svg" width="100%" alt="05 — Let's talk" />
+## What I'm focusing on now
 
-I'm interested in **AI engineering, machine learning, computer vision, LLM applications and full-stack AI products**, with a focus on projects that solve real problems.
+I'm currently strengthening my skills in **LLM engineering, RAG systems, AI agents, computer vision and production-ready AI applications**.
 
-The fastest way to reach me is **[LinkedIn](https://www.linkedin.com/in/oualid-karmoun/)** or **[oualidkarmoun@gmail.com](mailto:oualidkarmoun@gmail.com)**.
+I am particularly interested in projects where I can combine **machine learning with strong software engineering** and turn an experiment into something people can actually use.
 
-<p align="center">
-  <a href="https://github.com/oualidkarmoun"><img src="https://img.shields.io/badge/GitHub-@oualidkarmoun-22D3EE?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=08111F" alt="GitHub" /></a>
-</p>
+---
 
-<img src="assets/divider.svg" width="100%" alt="" />
+## Contact
+
+I'm open to **AI, machine learning, computer vision, data and full-stack AI opportunities**, as well as collaborative technical projects.
+
+**LinkedIn:** [Oualid Karmoun](https://www.linkedin.com/in/oualid-karmoun/)  
+**Portfolio:** [byoualid.netlify.app](https://byoualid.netlify.app)  
+**Email:** [oualidkarmoun@gmail.com](mailto:oualidkarmoun@gmail.com)
