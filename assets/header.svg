@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#0b1f33"/></linearGradient><radialGradient id="r"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="320" rx="28" fill="url(#g)"/><circle cx="1020" cy="95" r="220" fill="url(#r)"/><circle cx="110" cy="280" r="190" fill="url(#r)"/>
+<g stroke="#22d3ee" stroke-opacity=".22" fill="none"><path d="M760 78h180l55 55h110"/><path d="M830 210h140l45-45h95"/><circle cx="760" cy="78" r="5" fill="#22d3ee"/><circle cx="830" cy="210" r="5" fill="#22d3ee"/></g>
+<text x="70" y="105" fill="#67e8f9" font-size="22" font-family="Arial, sans-serif" letter-spacing="5">AI ENGINEERING · SOFTWARE · REAL-WORLD SYSTEMS</text>
+<text x="70" y="176" fill="#ffffff" font-size="54" font-weight="700" font-family="Arial, sans-serif">OUALID KARMOUN</text>
+<text x="70" y="222" fill="#cbd5e1" font-size="25" font-family="Arial, sans-serif">AI Engineering Student @ ENIAD</text>
+<text x="70" y="260" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">Computer Vision · LLMs · Full-Stack AI Products</text>
+</svg>
